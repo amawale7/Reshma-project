@@ -25,6 +25,7 @@ public class GitDemo
 	{
 		driver.quit();
 		System.out.println("close the brower");
+		System.out.println("close the browser");
 	}
 
 }
