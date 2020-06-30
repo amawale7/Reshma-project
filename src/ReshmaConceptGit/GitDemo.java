@@ -13,6 +13,7 @@ public class GitDemo
 	{
 		
 		System.out.println("Start the test");
+		System.out.println("Reshma");
 		System.setProperty("webdriver.chrome.driver","E:\\Selenium All Driver\\chrome\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -24,7 +25,6 @@ public class GitDemo
 	public void closeBrowser()
 	{
 		driver.quit();
-		System.out.println("close the brower");
 		System.out.println("close the browser");
 	}
 
